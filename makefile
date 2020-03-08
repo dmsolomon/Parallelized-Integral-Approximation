@@ -7,7 +7,7 @@ p3_files = Assignment2_driver.cpp MTS.cpp my_func.cpp pts.cpp
 
 
 
-all:	p1_exe	
+all:	p3_exe	
 
 p3_exe: $(p3_files)
 		$(compiler) $(FLAGS) $(p3_files) -o $@

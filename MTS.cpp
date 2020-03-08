@@ -4,6 +4,8 @@
 
 using namespace std; 
 
+//Returns the approximate integral using Midpoint, Trapezoid and Simpson rules
+// given a function to integrate, wavevector w and number of rectangles
 double * MTS( double (*func)(double,double), double w_n, int q_n,
 		double start, double end, double i)
 {

@@ -1,2 +1,0 @@
-# Temp
-# Parallelized-Integral-Approximation

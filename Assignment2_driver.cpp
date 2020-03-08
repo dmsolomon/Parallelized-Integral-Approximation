@@ -9,6 +9,9 @@
 
 using namespace std;
 
+// Produces Midpoint, Trapezoid and Simpson approximations of given function using MPI. Set to 
+// evaluate for wave vectors in range (100,10000). Saves approximations to txt file
+
 int main(int argc, char* argv[])
 {
 	MPI::Init( argc, argv);
