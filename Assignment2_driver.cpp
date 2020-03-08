@@ -75,9 +75,9 @@ int main(int argc, char* argv[])
 				full_integral[2] += local_integral[2];
 			}
 
-			out_mid << scientific << setprecision(15) << full_integral[0] << endl;
-		        out_trap << scientific <<  setprecision(15) << full_integral[1] << endl;
-			out_simp << scientific << setprecision(15) << full_integral[2] << endl;
+			out_mid  << setprecision(15) << full_integral[0] << endl;
+		        out_trap <<  setprecision(15) << full_integral[1] << endl;
+			out_simp << setprecision(15) << full_integral[2] << endl;
 
 			if ( wave_vect % 1000 ==0)
 			{
